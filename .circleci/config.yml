@@ -886,7 +886,8 @@ jobs:
   deployable:
     docker:
       - image: busybox:latest
-    steps: []
+    steps:
+      - run: echo Deploying!
 
 workflows:
   version: 2
