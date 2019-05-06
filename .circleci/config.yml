@@ -939,6 +939,7 @@ workflows:
           filters:
             branches:
               ignore:
+                - /docs\/.*/
                 - /docker\/.*/
             tags:
               only: /.*/
